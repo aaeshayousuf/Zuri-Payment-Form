@@ -13,7 +13,7 @@ body{
 
 h2{
     text-align: center;
-    color: rgb(83, 46, 83)
+    color: rgb(119, 75, 119); 
 }
 h4{
     font-size: 20px;
@@ -26,6 +26,18 @@ input{
     padding: 10px 0;
     transition: border 0.5s;   
     color: rgb(83, 46, 83);
+}
+
+.input-group:nth-of-type(-n+2) .input-box{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa{
+    padding: 0 5px;
+    color: rgb(119, 75, 119); 
 }
 
 .name{
@@ -63,6 +75,7 @@ input[type="tel"]{
     width: 240px;
     border-radius: 7px;
 }
+
 
 .input-group:nth-of-type(6) input[type="tel"]
 {
